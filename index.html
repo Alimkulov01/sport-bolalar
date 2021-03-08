@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./style/main.css" type="text/css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="overlay" id="overlay"></div>
+
+	<div class="kobinet" id="kobinet-box">
+		<div class="kobinet-box">
+			<div class="box-top">
+				<div class="box-top-left">
+					<h3 class="box-top-left__title">
+						Kirish
+					</h3>
+				</div>
+				<div class="box-top-right" id="box-closs">
+					<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M8.64499 6.5004L12.6667 2.47869C13.1111 2.03433 13.1111 1.31391 12.6667 0.870248L12.1306 0.334102C11.6861 -0.110395 10.9656 -0.110395 10.522 0.334102L6.5004 4.35568L2.47869 0.333269C2.03433 -0.11109 1.31391 -0.11109 0.870248 0.333269L0.333269 0.869414C-0.11109 1.31391 -0.11109 2.03433 0.333269 2.47799L4.35568 6.5004L0.334102 10.522C-0.110395 10.9665 -0.110395 11.6869 0.334102 12.1306L0.870248 12.6667C1.31461 13.1111 2.03502 13.1111 2.47869 12.6667L6.5004 8.64499L10.522 12.6667C10.9665 13.1111 11.6869 13.1111 12.1306 12.6667L12.6667 12.1306C13.1111 11.6861 13.1111 10.9656 12.6667 10.522L8.64499 6.5004Z" fill="#5D748A"/>
+					</svg>						
+				</div>
+			</div>
+
+			<div class="box-center">
+				<form action="#" class="form">
+					<label for="input-tel" class="label-tel">Elektron manzilingiz</label>
+					<input class="input-tel" type="tel" placeholder="+998 __ ___ __ __" id="input-tel">
+
+					<label for="pasword-input" class="pasword-label">Parolingiz</label>
+					<input class="input-pasword" type="password" id="pasword-input" placeholder="Parolni kiriting">
+					<button type="submit" class="button">Kirish</button>
+				</form>
+			</div>
+
+			<div class="box-bottom">
+				<div class="box-bottom-top">
+					<div class="box-bottom-top-left">
+						<a href="#" class="box-bottom-top-left__link">Eslab qolish</a>
+					</div>
+					<div class="box-bottom-top-right">
+						<a href="#" class="box-bottom-top-right__link">Parolni unutdingizmi ?</a>
+					</div>
+				</div>
+				<div class="box-bottom-center">
+					<span class="box-bottom-center__span">
+						Yoki
+					</span>
+				</div>
+				<div class="box-bottom-bottom">
+					<a href="#" class="box-bottom-bottom__link">
+						Ro‘yxatdan o‘tish
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header class="header-box">
+		<div class="header">
+			<div class="header-left">
+				<a href="/" class="header-left-logo">
+					<img src="./images/icons/header-logo.svg" alt="logotip" class="header-left-logo__img">
+					<span class="header-left-logo__text">
+						Sport Bolalar
+						Nigohida
+					</span>
+				</a>
+			</div>
+			<nav class="header-nav">
+				<a href="#" class="header-nav__links">O‘yinlar</a>
+				<a href="#" class="header-nav__links">Infografika</a>
+				<a href="#" class="header-nav__links">Ota-onalar uchun</a>
+				<a href="#" class="header-nav__links">To‘garaklar</a>
+				<a href="#" class="header-nav__links">Videoblog</a>
+				<a href="#" class="header-nav__links">Reyting</a>
+			</nav>
+			<div class="header-right">
+				<div class="burger-button" id="burger-button">
+					<a href="#" class="burger-btn">
+						<img src="./images/icons/menu.svg" alt="menu" class="burger-btn__img">
+					</a>
+				</div>
+
+				<div class="header-right-left">
+					<span class="header-right-left__span">O‘zb</span>
+				</div>
+				<div class="header-right-right" id="kabinet">
+					<a href="#" class="header-right-right__link">
+						Kabinet
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="mobile-menu-box" id="mobile-menu-box">
+		<div class="mobile-menu">
+			<a href="#" class="mobile-menu__links">O‘yinlar</a>
+			<a href="#" class="mobile-menu__links">Infografika</a>
+			<a href="#" class="mobile-menu__links">Ota-onalar uchun</a>
+			<a href="#" class="mobile-menu__links">To‘garaklar</a>
+			<a href="#" class="mobile-menu__links">Videoblog</a>
+			<a href="#" class="mobile-menu__links">Reyting</a>
+		</div>
+	</div>
+
+	<section class="hero-section">
+		<div class="hero-section-inner container">
+			<div class="hero-section-inner-left">
+				<h1 class="hero-section-inner-left__title">
+					Sport Bolalar Nigohida
+					portalida yangi o‘yinimizni qarshi oling!
+				</h1>
+
+
+				<div class="hero-section-inner-left-bottom">
+					<a href="#" class="hero-section-inner-left-bottom__links">
+						O‘yinga o‘tish
+					</a>
+					<a href="#" class="hero-section-inner-left-bottom__links">
+						Batafsil
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="section1">
+		<div class="section1-inner">
+			<div class="section1-inner-inner container">
+				<h3 class="section1-inner-inner__title">
+					Ota-onalar sahifasi
+				</h3>
+
+				<p class="section1-inner-inner__text">Ushbu sahifa ota-onalarni bolalar sporti dunyosi bilan
+					tanishtiradi</p>
+				<a href="#" class="section1-inner-inner__button">
+					Sahifaga o‘tish
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="section2">
+		<div class="section2-top container2">
+			<a href="#" class="video-card video-card--futbol">
+				<div class="video-card-top">
+					<span class="video-card-top__span">
+						10/11/2017
+					</span>
+
+					<span class="video-card-top__span">
+						Futbol
+					</span>
+				</div>
+				<div class="video-card-bottom">
+					<h4 class="video-card-bottom__title">
+						O‘smirlar o‘rtasida futbol chempionati o‘tkazildi
+					</h4>
+				</div>
+			</a>
+			<a href="#" class="video-card video-card--armlersing">
+				<div class="video-card-top">
+					<span class="video-card-top__span">
+						10/11/2017
+					</span>
+
+					<span class="video-card-top__span">
+						Kuch sinashish
+					</span>
+				</div>
+				<div class="video-card-bottom">
+					<h4 class="video-card-bottom__title">
+						Kuch sinashish bo‘yicha qaysi jamoa g‘olib bo‘ldi...
+					</h4>
+				</div>
+			</a>
+			<div class="video-blog">
+				<h4 class="video-blog__title">
+					Videoblog
+				</h4>
+				<p class="video-blog__text">
+					Bolalar sportiga tegishli videolavhalar ushbu blogdan joy olgan.
+				</p>
+
+				<a href="#" class="video-blog__link">
+					Barcha videolar
+				</a>
+			</div>
+		</div>
+		<div class="section2-top container2">
+			<a href="#" class="video-card video-card--valibol">
+				<div class="video-card-top">
+					<span class="video-card-top__span">
+						10/11/2017
+					</span>
+
+					<span class="video-card-top__span">
+						Chempionat
+					</span>
+				</div>
+				<div class="video-card-bottom">
+					<h4 class="video-card-bottom__title">
+						O‘smirlar o‘rtasida futbol chempionati o‘tkazildi
+					</h4>
+				</div>
+			</a>
+
+			<a href="#" class="video-card-big">
+				<div class="video-card-big-top">
+					<span class="video-card-big-top__span">
+						10/11/2017
+					</span>
+
+					<span class="video-card-big-top__span">
+						Rasmiy
+					</span>
+				</div>
+				<div class="video-card-big-bottom">
+					<h4 class="video-card-big-bottom__title">
+						Yurtboshimizning IT rivojlantirish bo‘yicha navbatdagi yig‘ilishi
+					</h4>
+				</div>
+			</a>
+
+			<a href="#" class="video-card video-card--ommaviy">
+				<div class="video-card-top">
+					<span class="video-card-top__span">
+						10/11/2017
+					</span>
+
+					<span class="video-card-top__span">
+						Ommaviy
+					</span>
+				</div>
+				<div class="video-card-bottom">
+					<h4 class="video-card-bottom__title">
+						Kuch sinashish bo‘yicha qaysi jamoa g‘olib bo‘ldi...
+					</h4>
+				</div>
+			</a>
+		</div>
+	</section>
+
+	<section class="section3">
+
+		<div class="section3-inner container">
+			<div class="title">
+				<h4 class="title__text">
+					O‘yinlar
+				</h4>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide right">
+						<span class="right__span">
+							Sport <br> testi
+						</span>
+					</div>
+					<div class="swiper-slide left">
+						<h4 class="left__text">
+							O‘ylab toping
+						</h4>
+					</div>
+					<div class="swiper-slide center">
+						<span class="center__span">Ha</span>
+						<span class="center__span">yoki</span>
+						<span class="center__span">Yo'q</span>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+
+		<div class="mobile-card container" id="mobile-card">
+
+			<div class="mobile-card-wrapper">
+				<div class="mobile-card-wrapper-box">
+					<a href="#" class="mobile-card-wrapper-box-link">
+						<img src="./images/mobiel-card.svg" alt="" class="mobile-card-wrapper-box-link__img">
+					</a>
+				</div>
+			</div>
+
+			<div class="card-button">
+				<span class="card-button__span"></span>
+				<span class="card-button__span"></span>
+				<span class="card-button__span"></span>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="section4">
+		<div class="section4-top container">
+			<h3 class="section4-top__title">
+				Sport maslahatlari
+			</h3>
+			<p class="section4-top__text">
+				O‘zingizga qiziq bo’lgan sportga taaluqli barcha ma’lumotlarga ega bo‘ling.
+			</p>
+		</div>
+		<div class="section4-bottom">
+			<a href="#" class="section4-bottom-card">
+				<h4 class="section4-bottom-card__title">
+					Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang
+				</h4>
+				<p class="section4-bottom-card__text">
+					Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya badantarbiya bilan
+					shug‘ullanishni kanda qilmang badantarbiya
+				</p>
+			</a>
+			<a href="#" class="section4-bottom-card">
+				<h4 class="section4-bottom-card__title">
+					Mashq qilayotganingizda albatta yengil mashqlardan boshlang
+				</h4>
+				<p class="section4-bottom-card__text">
+					Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya badantarbiya bilan
+					shug‘ullanishni kanda qilmang badantarbiya
+				</p>
+			</a>
+			<a href="#" class="section4-bottom-card none">
+				<h4 class="section4-bottom-card__title">
+					Imkon qadar uy sharoitida tosh ko‘tarishdan yiroqroq bo‘ling
+				</h4>
+				<p class="section4-bottom-card__text">
+					Ertalabdan badantarbiya bilan shug‘ullanishni kanda qilmang badantarbiya badantarbiya bilan
+					shug‘ullanishni kanda qilmang badantarbiya
+				</p>
+			</a>
+		</div>
+
+		<div class="section4-navigation">
+			<div class="section4-radio">
+				<span class="section4-radio__span"></span>
+				<span class="section4-radio__span"></span>
+				<span class="section4-radio__span"></span>
+				<span class="section4-radio__span"></span>
+				<span class="section4-radio__span"></span>
+			</div>
+
+			<div class="section4-navigation-link">
+				<a href="#" class="section4-prev">
+					<img src="./images/icons/prev.svg" alt="" class="section4-prev__img">
+				</a>
+				<a href="#" class="section4-next">
+					<img src="./images/icons/next.svg" alt="" class="section4-next__img">
+				</a>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="section5">
+		<div class="section5-inner container">
+			<div class="section5-inner-left">
+				<img src="./images/section5.svg" alt="" class="section5-inner-left__img">
+			</div>
+			<div class="section5-inner-right">
+				<div class="section5-inner-right-top">
+					<div class="section5-inner-right-top-left">
+						<h3 class="section5-inner-right-top-left__title">
+							Hududingizdagi
+							sport inshootlari
+						</h3>
+					</div>
+					<div class="section5-inner-right-top-right">
+						<a href="#" class="section5-inner-right-top-right__link">
+							Toshkent shahri
+						</a>
+					</div>
+				</div>
+
+				
+				<div class="section5-inner-right-center">
+					<div class="section5-inner-right-center-left">
+
+						<div class="section5-inner-right-center-left-card">
+							<img src="./images/section5-futbol.svg" alt="" class="section5-inner-right-center-left-card__img">
+
+							<a href="#" class="section5-inner-right-center-left-card__text">
+								Futbol
+								maydonlari
+							</a>
+						</div>
+
+						<div class="section5-inner-right-center-left-card">
+							<img src="./images/icons/section5-basen.svg" alt=""
+								class="section5-inner-right-center-left-card__img">
+							<a href="#" class="section5-inner-right-center-left-card__text">
+								Suzish
+								havzalari
+							</a>
+						</div>
+
+						<div class="section5-inner-right-center-left-card">
+							<img src="./images/icons/section5-yugurish.svg" alt=""
+								class="section5-inner-right-center-left-card__img">
+							<a href="#" class="section5-inner-right-center-left-card__text">
+								Yugurish
+								maydonlari
+							</a>
+						</div>
+					</div>
+					<div class="section5-inner-right-center-right">
+						<div class="section5-inner-right-center-right-card">
+							<img src="./images/icons/section5-tenis.svg" alt=""
+								class="section5-inner-right-center-right-card__img">
+							<a href="#" class="section5-inner-right-center-right-card__text">
+								Tennis
+								kortlari
+							</a>
+						</div>
+						<div class="section5-inner-right-center-right-card">
+							<img src="./images/icons/section5-gimnastika.svg" alt=""
+								class="section5-inner-right-center-right-card__img blue">
+							<a href="#" class="section5-inner-right-center-right-card__text">
+								Gimnastika
+								komplekslari
+							</a>
+						</div>
+						<div class="section5-inner-right-center-right-card">
+							<img src="./images/icons/section5-next.svg" alt=""
+								class="section5-inner-right-center-right-card__img">
+							<a href="#" class="section5-inner-right-center-right-card__text">
+								Boshqa
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="section5-inner-right-bottom">
+					<div class="section5-inner-right-bottom-left">
+						<span class="section5-inner-right-bottom-left__date">
+							27
+						</span>
+						<div class="section5-inner-right-bottom-left-text">
+							<span class="section5-inner-right-bottom-left-text__span1">ta</span>
+							<span class="section5-inner-right-bottom-left-text__span2">Suzish havzalari mavjud</span>
+						</div>
+					</div>
+					<div class="section5-inner-right-bottom-right">
+						<a href="#" class="section5-inner-right-bottom-right__link">
+							Batafsil ko‘rish
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section6">
+		<div class="section6-inner container2">
+			<div class="section6-inner-left">
+				<img src="./images/section6.svg" alt="" class="section6-inner-left__img">
+			</div>
+
+			<div class="section6-inner-right">
+				<div class="section6-inner-right-top">
+					<h3 class="section6-inner-right-top__title">
+						Top-3 foydalanuvchi
+					</h3>
+					<a href="#" class="section6-inner-right-top__link">
+						Reytingni ko‘rish
+					</a>
+				</div>
+
+			
+
+				<div class="section6-inner-right-bottom">
+
+					<div class="section6-inner-right-bottom-card">
+
+						<div class="section6-inner-right-bottom-card-left">
+							<img src="./images/section6-card-face1.svg" alt="" class="section6-inner-right-bottom-card-left__img">
+							<div class="section6-inner-right-bottom-card-left-text">
+								<span class="section6-inner-right-bottom-card-left-text__name">
+									Mirzakhalilova Madina
+								</span>
+								<span class="section6-inner-right-bottom-card-left-text__sportstype">
+									sport lug‘ati
+								</span>
+							</div>
+						</div>
+
+						<div class="section6-inner-right-bottom-card-right">
+							<div class="section6-inner-right-bottom-card-right-star">
+								<img src="./images/section6-star.svg" alt="" class="section6-inner-right-bottom-card-right-star__img">
+								<span class="section6-inner-right-bottom-card-right-star__span">
+									2,365
+								</span>
+							</div>
+							<div class="section6-inner-right-bottom-card-right-gaming">
+								<img src="./images/icons/section6-jostik.svg" alt="" class="section6-inner-right-bottom-card-right-gaming__img">
+								<span class="section6-inner-right-bottom-card-right-gaming__span">
+									2,365
+								</span>
+							</div>
+							<div class="section6-inner-right-bottom-card-right-medal">
+								<img src="./images/icons/section6-n1.svg" alt="" class="section6-inner-right-bottom-card-right-medal__img">
+							</div>
+						</div>
+
+					</div>
+					
+					<div class="section6-inner-right-bottom-card">
+						<div class="section6-inner-right-bottom-card-left">
+							<img src="./images/section6-card-face2.svg" alt="" class="section6-inner-right-bottom-card-left__img">
+							<div class="section6-inner-right-bottom-card-left-text">
+								<span class="section6-inner-right-bottom-card-left-text__name">
+									Abdullayev Abdubakir
+								</span>
+								<span class="section6-inner-right-bottom-card-left-text__sportstype">
+									futbol
+								</span>
+							</div>
+						</div>
+						<div class="section6-inner-right-bottom-card-right">
+							<div class="section6-inner-right-bottom-card-right-star">
+								<img src="./images/section6-star.svg" alt="" class="section6-inner-right-bottom-card-right-star__img">
+								<span class="section6-inner-right-bottom-card-right-star__span">
+									1,965
+								</span>
+							</div>
+							<div class="section6-inner-right-bottom-card-right-gaming">
+								<img src="./images/icons/section6-jostik.svg" alt="" class="section6-inner-right-bottom-card-right-gaming__img">
+								<span class="section6-inner-right-bottom-card-right-gaming__span">
+									2,263
+
+								</span>
+							</div>
+							<div class="section6-inner-right-bottom-card-right-medal">
+								<img src="./images/icons/section6-n2.svg" alt="" class="section6-inner-right-bottom-card-right-medal__img">
+							</div>
+						</div>
+					</div>
+
+					<div class="section6-inner-right-bottom-card">
+						<div class="section6-inner-right-bottom-card-left">
+							<img src="./images/section6-card-face3.svg" alt="" class="section6-inner-right-bottom-card-left__img">
+							<div class="section6-inner-right-bottom-card-left-text">
+								<span class="section6-inner-right-bottom-card-left-text__name">
+									Ubaydullayev Odiljon
+								</span>
+								<span class="section6-inner-right-bottom-card-left-text__sportstype">
+									ha yoki yo‘q
+								</span>
+							</div>
+						</div>
+						<div class="section6-inner-right-bottom-card-right">
+							<div class="section6-inner-right-bottom-card-right-star">
+								<img src="./images/section6-star.svg" alt="" class="section6-inner-right-bottom-card-right-star__img">
+								<span class="section6-inner-right-bottom-card-right-star__span">
+									1,022
+								</span>
+							</div>
+							<div class="section6-inner-right-bottom-card-right-gaming">
+								<img src="./images/icons/section6-jostik.svg" alt="" class="section6-inner-right-bottom-card-right-gaming__img">
+								<span class="section6-inner-right-bottom-card-right-gaming__span">
+									2,001
+
+								</span>
+							</div>
+							<div class="section6-inner-right-bottom-card-right-medal">
+								<img src="./images/icons/section6n3.svg" alt="" class="section6-inner-right-bottom-card-right-medal__img">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section7">
+		<div class="section7-top container2">
+			<h3 class="section7-top__title">
+				Mashhur sportchilar
+			</h3>
+
+			<a href="#" class="section7-top__link">
+				Barcha sportchilar
+			</a>
+		</div>
+
+		<div class="section7-bottom">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide birinchi">
+						<span class="swiper-slide__name">
+							Bektemir Melqo‘ziyev
+						</span>
+						<span class="swiper-slide__text">
+							Boks - Rio de Janeiro - 2004 oltin
+						</span>
+					</div>
+
+					<div class="swiper-slide ikkinchi">
+						<span class="swiper-slide__name">
+							Ruslan Nuriddinov
+						</span>
+						<span class="swiper-slide__text">
+							Og‘ir atletika - Rio de Janeiro - 2016 oltin
+						</span>
+					</div>
+
+					<div class="swiper-slide uchinchi">
+						<span class="swiper-slide__name">
+							ARTUR TAYMAZOV
+						</span>
+						<span class="swiper-slide__text">
+							Erkin kurash - Afina - 2004 oltin
+						</span>	
+					</div>
+
+					<div class="swiper-slide tortinchi">
+						<span class="swiper-slide__name">
+							Fazliddin G‘oyibnazarov
+						</span>
+						<span class="swiper-slide__text">
+							Boks - Lillehammer - 2000 oltin
+						</span>
+					</div>
+			
+
+					<div class="swiper-slide beshinchi">
+						<span class="swiper-slide__name">
+							Bektemir Melqo‘ziyev
+						</span>
+						<span class="swiper-slide__text">
+							Karate - Istanbul - 2004 oltin
+						</span>
+					</div>		
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+
+
+			<div class="mobile-slide-wrapper container">
+				<div class="mobile-slide">
+					<div class="mobile-slide-card">
+						<span class="mobile-slide-card__name">
+							ARTUR TAYMAZOV
+						</span>
+						<span class="mobile-slide-card__text">
+							Erkin kurash - Afina - 2004 oltin
+						</span>
+					</div>
+					<div class="mobile-slide-button">
+						<span class="mobile-slide-button__span"></span>
+						<span class="mobile-slide-button__span"></span>
+						<span class="mobile-slide-button__span"></span>
+						<span class="mobile-slide-button__span"></span>
+						<span class="mobile-slide-button__span"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section8 container2">
+		<div class="section8-left">
+			<h3 class="section8-left__title">
+				BIZNI IJTIMOIY TARMOQLARDA HAM
+				KUZATING VA OBUNA BO‘LING
+			</h3>
+		</div>
+		<div class="section8-right">
+			<a href="#" class="section8-right__link section8-right__link--twitter">
+				<svg width="38" height="38" viewBox="0 0 24 20"  xmlns="http://www.w3.org/2000/svg">
+					<path d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z" fill="#fff"/>
+				</svg>					
+			</a>
+			<a href="#" class="section8-right__link section8-right__link--facebook">
+				<svg width="38" height="38" viewBox="0 0 22 24"  xmlns="http://www.w3.org/2000/svg">
+					<path d="M21.6562 12C21.6562 5.57812 16.8867 0.375 11 0.375C5.11328 0.375 0.34375 5.57812 0.34375 12C0.34375 17.8022 4.24059 22.6116 9.33496 23.4844V15.3605H6.62793V12H9.33496V9.43875C9.33496 6.52547 10.9248 4.91625 13.3598 4.91625C14.526 4.91625 15.7455 5.14313 15.7455 5.14313V8.0025H14.4014C13.078 8.0025 12.665 8.89875 12.665 9.81797V12H15.6204L15.1478 15.3605H12.665V23.4844C17.7594 22.6116 21.6562 17.8022 21.6562 12Z" fill="#fff"/>
+				</svg>
+			</a>
+			<a href="#" class="section8-right__link section8-right__link--telegram">
+				<svg width="38" height="38" viewBox="0 0 22 24"  xmlns="http://www.w3.org/2000/svg">
+					<path d="M11 0.375C4.92339 0.375 0 5.57812 0 12C0 18.4219 4.92339 23.625 11 23.625C17.0766 23.625 22 18.4219 22 12C22 5.57812 17.0766 0.375 11 0.375ZM16.4024 8.33906L14.5972 17.3297C14.4641 17.9672 14.1048 18.1219 13.6036 17.8219L10.8536 15.6797L9.52742 17.0297C9.38105 17.1844 9.25686 17.3156 8.97298 17.3156L9.16815 14.3578L14.2645 9.49219C14.4863 9.28594 14.2157 9.16875 13.923 9.375L7.6246 13.5656L4.91008 12.6703C4.32016 12.4734 4.30685 12.0469 5.03427 11.7469L15.6395 7.425C16.1319 7.2375 16.5621 7.55156 16.4024 8.33906Z" fill="#fff"/>
+				</svg>
+			</a>
+			<a href="#" class="section8-right__link section8-right__link--instagram">
+				<svg width="38" height="38" viewBox="0 0 22 22"  xmlns="http://www.w3.org/2000/svg">
+					<path d="M11.0049 5.60952C7.88169 5.60952 5.36249 8.01421 5.36249 10.9955C5.36249 13.9767 7.88169 16.3814 11.0049 16.3814C14.1281 16.3814 16.6473 13.9767 16.6473 10.9955C16.6473 8.01421 14.1281 5.60952 11.0049 5.60952ZM11.0049 14.497C8.9866 14.497 7.3366 12.9267 7.3366 10.9955C7.3366 9.06421 8.98169 7.4939 11.0049 7.4939C13.0281 7.4939 14.6732 9.06421 14.6732 10.9955C14.6732 12.9267 13.0232 14.497 11.0049 14.497ZM18.1942 5.38921C18.1942 6.08765 17.6049 6.64546 16.8781 6.64546C16.1464 6.64546 15.562 6.08296 15.562 5.38921C15.562 4.69546 16.1513 4.13296 16.8781 4.13296C17.6049 4.13296 18.1942 4.69546 18.1942 5.38921ZM21.9312 6.66421C21.8477 4.9814 21.4451 3.49077 20.1536 2.26265C18.8669 1.03452 17.3053 0.650146 15.5424 0.565771C13.7254 0.467334 8.27946 0.467334 6.46249 0.565771C4.70446 0.645459 3.14285 1.02983 1.85134 2.25796C0.559819 3.48608 0.162051 4.97671 0.0736587 6.65952C-0.0294662 8.3939 -0.0294662 13.5923 0.0736587 15.3267C0.157141 17.0095 0.559819 18.5001 1.85134 19.7283C3.14285 20.9564 4.69955 21.3408 6.46249 21.4251C8.27946 21.5236 13.7254 21.5236 15.5424 21.4251C17.3053 21.3455 18.8669 20.9611 20.1536 19.7283C21.4402 18.5001 21.8428 17.0095 21.9312 15.3267C22.0344 13.5923 22.0344 8.39858 21.9312 6.66421ZM19.5839 17.1876C19.2009 18.1064 18.4594 18.8142 17.4919 19.1845C16.0433 19.733 12.6058 19.6064 11.0049 19.6064C9.40401 19.6064 5.9616 19.7283 4.51785 19.1845C3.55535 18.8189 2.81384 18.1111 2.42589 17.1876C1.85134 15.8048 1.98393 12.5236 1.98393 10.9955C1.98393 9.46733 1.85625 6.1814 2.42589 4.80327C2.80892 3.88452 3.55044 3.17671 4.51785 2.8064C5.96651 2.25796 9.40401 2.38452 11.0049 2.38452C12.6058 2.38452 16.0482 2.26265 17.4919 2.8064C18.4544 3.17202 19.196 3.87983 19.5839 4.80327C20.1585 6.18608 20.0259 9.46733 20.0259 10.9955C20.0259 12.5236 20.1585 15.8095 19.5839 17.1876Z" fill="#fff"/>
+				</svg>
+			</a>
+		</div>
+	</section>
+	
+	<footer class="footer">
+		<div class="footer-inner container2">
+			<div class="footer-inner-top">
+				<div class="footer-inner-top-info">
+					<a href="#" class="footer-inner-top-info-link">
+						<img src="./images/icons/header-logo.svg" alt="" class="footer-inner-top-info-link__logo">
+						<span class="footer-inner-top-info-link__span">Sport Bolalar
+							Nigohida</span>
+					</a>
+
+					<p class="footer-inner-top-info__text">
+						Portalda eʼlon qilingan materiallardan nusxa koʻchirish, tarqatish va boshqa shakllarda  foydalanish faqat tahririyat yozma roziligi bilan amalga oshirilishi mumkin.
+					</p>
+				</div>
+				<ul class="footer-inner-top-ul">
+					<li class="footer-inner-top-ul__title">
+						Bo‘limlar
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">O‘yinlar</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Infografika</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Ota-onalar uchun</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Videoblog</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Reyting</a>
+					</li>
+				</ul>
+
+				<ul class="footer-inner-top-ul">
+					<li class="footer-inner-top-ul__title">
+						O‘yin va sinovlar
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">10 bosqichdan iborat sport test</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">O‘ylab toping</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Ha yoki yo‘q</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Sport lug‘ati</a>
+					</li>
+				</ul>
+
+				<ul class="footer-inner-top-ul">
+					<li class="footer-inner-top-ul__title">
+						Foydali sahifalar
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Reyting</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Bog‘lanish</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">F.A.Q</a>
+					</li>
+					<li class="footer-inner-top-ul-li">
+						<a href="#" class="footer-inner-top-ul-li__link">Foydalanish shartlari</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="footer-inner-bottom">
+				<div class="footer-inner-bottom-left">
+					<a href="#" class="footer-inner-bottom-left__text">
+						Sport Bolalar Nigohida © 2020. Barcha huquqlar himoyalangan.
+					</a>
+				</div>
+				<div class="footer-inner-bottom-center">
+					<span class="footer-inner-bottom-center__text">
+						Designed and developed by 
+					</span>
+					<img src="./images/icons/uic.svg" alt="" class="footer-inner-bottom-center__img">
+				</div>
+				<div class="footer-inner-bottom-right">
+					<div class="footer-inner-bottom-right-top">
+						<span class="footer-inner-bottom-right-top__text">
+							Biz ijtimoiy tarmoqlarda
+						</span>
+					</div>
+
+					<div class="footer-inner-bottom-right-bottom">
+						<a href="#" class="footer-inner-bottom-right-bottom__link">
+							<svg width="38" height="38" viewBox="0 0 24 20"  xmlns="http://www.w3.org/2000/svg">
+								<path d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z" fill="#5D748A"/>
+							</svg>	
+						</a>
+						<a href="#" class="footer-inner-bottom-right-bottom__link">
+							<svg width="38" height="38" viewBox="0 0 22 24"  xmlns="http://www.w3.org/2000/svg">
+								<path d="M21.6562 12C21.6562 5.57812 16.8867 0.375 11 0.375C5.11328 0.375 0.34375 5.57812 0.34375 12C0.34375 17.8022 4.24059 22.6116 9.33496 23.4844V15.3605H6.62793V12H9.33496V9.43875C9.33496 6.52547 10.9248 4.91625 13.3598 4.91625C14.526 4.91625 15.7455 5.14313 15.7455 5.14313V8.0025H14.4014C13.078 8.0025 12.665 8.89875 12.665 9.81797V12H15.6204L15.1478 15.3605H12.665V23.4844C17.7594 22.6116 21.6562 17.8022 21.6562 12Z" fill="#5D748A"/>
+							</svg>
+						</a>
+						<a href="#" class="footer-inner-bottom-right-bottom__link">
+							<svg width="38" height="38" viewBox="0 0 22 24"  xmlns="http://www.w3.org/2000/svg">
+								<path d="M11 0.375C4.92339 0.375 0 5.57812 0 12C0 18.4219 4.92339 23.625 11 23.625C17.0766 23.625 22 18.4219 22 12C22 5.57812 17.0766 0.375 11 0.375ZM16.4024 8.33906L14.5972 17.3297C14.4641 17.9672 14.1048 18.1219 13.6036 17.8219L10.8536 15.6797L9.52742 17.0297C9.38105 17.1844 9.25686 17.3156 8.97298 17.3156L9.16815 14.3578L14.2645 9.49219C14.4863 9.28594 14.2157 9.16875 13.923 9.375L7.6246 13.5656L4.91008 12.6703C4.32016 12.4734 4.30685 12.0469 5.03427 11.7469L15.6395 7.425C16.1319 7.2375 16.5621 7.55156 16.4024 8.33906Z" fill="#5D748A"/>
+							</svg>							
+						</a>
+						<a href="#" class="footer-inner-bottom-right-bottom__link">
+							<svg width="38" height="38" viewBox="0 0 22 22"  xmlns="http://www.w3.org/2000/svg">
+								<path d="M11.0049 5.60952C7.88169 5.60952 5.36249 8.01421 5.36249 10.9955C5.36249 13.9767 7.88169 16.3814 11.0049 16.3814C14.1281 16.3814 16.6473 13.9767 16.6473 10.9955C16.6473 8.01421 14.1281 5.60952 11.0049 5.60952ZM11.0049 14.497C8.9866 14.497 7.3366 12.9267 7.3366 10.9955C7.3366 9.06421 8.98169 7.4939 11.0049 7.4939C13.0281 7.4939 14.6732 9.06421 14.6732 10.9955C14.6732 12.9267 13.0232 14.497 11.0049 14.497ZM18.1942 5.38921C18.1942 6.08765 17.6049 6.64546 16.8781 6.64546C16.1464 6.64546 15.562 6.08296 15.562 5.38921C15.562 4.69546 16.1513 4.13296 16.8781 4.13296C17.6049 4.13296 18.1942 4.69546 18.1942 5.38921ZM21.9312 6.66421C21.8477 4.9814 21.4451 3.49077 20.1536 2.26265C18.8669 1.03452 17.3053 0.650146 15.5424 0.565771C13.7254 0.467334 8.27946 0.467334 6.46249 0.565771C4.70446 0.645459 3.14285 1.02983 1.85134 2.25796C0.559819 3.48608 0.162051 4.97671 0.0736587 6.65952C-0.0294662 8.3939 -0.0294662 13.5923 0.0736587 15.3267C0.157141 17.0095 0.559819 18.5001 1.85134 19.7283C3.14285 20.9564 4.69955 21.3408 6.46249 21.4251C8.27946 21.5236 13.7254 21.5236 15.5424 21.4251C17.3053 21.3455 18.8669 20.9611 20.1536 19.7283C21.4402 18.5001 21.8428 17.0095 21.9312 15.3267C22.0344 13.5923 22.0344 8.39858 21.9312 6.66421ZM19.5839 17.1876C19.2009 18.1064 18.4594 18.8142 17.4919 19.1845C16.0433 19.733 12.6058 19.6064 11.0049 19.6064C9.40401 19.6064 5.9616 19.7283 4.51785 19.1845C3.55535 18.8189 2.81384 18.1111 2.42589 17.1876C1.85134 15.8048 1.98393 12.5236 1.98393 10.9955C1.98393 9.46733 1.85625 6.1814 2.42589 4.80327C2.80892 3.88452 3.55044 3.17671 4.51785 2.8064C5.96651 2.25796 9.40401 2.38452 11.0049 2.38452C12.6058 2.38452 16.0482 2.26265 17.4919 2.8064C18.4544 3.17202 19.196 3.87983 19.5839 4.80327C20.1585 6.18608 20.0259 9.46733 20.0259 10.9955C20.0259 12.5236 20.1585 15.8095 19.5839 17.1876Z" fill="#5D748A"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="./script/main.js"></script>
+</body>
+
+</html>
